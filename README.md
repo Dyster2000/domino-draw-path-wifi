@@ -1,8 +1,8 @@
 # DominoDrawPathWifi
 
-The DominoDrawBluetooth directory is the Arduino code for the bluetooth path following robot. This requires an Arduino ESP32 nano chip.
+The DominoDrawWifi directory is the Arduino code for the Wifi path following robot. This requires an Arduino ESP32 nano chip.
 
-The DominoPathDrawApp is a .net Maui app that is functional on an Android. Since it is Maui, it could be made to work on an iPhone as well. It just needs the iPhone specific bluetooth code added.
+The DominoPathDrawWifiApp is a .net Maui app that is functional on an Android and Windows. Since it is Maui, it could be made to work on an iPhone as well. It just needs the iPhone specific bluetooth code added.
 
 Wifi overview:
   To make the initial connection, the client app needs to know the address assigned to the domino robot when it connected to the wifi. In odrer to do this, the domino robot will broadcast it's address once a second using a UDP broadcast packet.
