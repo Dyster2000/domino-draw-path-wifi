@@ -1,0 +1,6 @@
+﻿DominoDrawWifi/.vscode
+DominoDrawWifi/.pio
+DominoPathDrawWifiApp/.vs
+DominoPathDrawWifiApp/bin
+DominoPathDrawWifiApp/obj
+*.csproj.user
